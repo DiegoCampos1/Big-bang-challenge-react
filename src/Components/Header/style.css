@@ -1,0 +1,17 @@
+.navBar {
+  display: flex;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar div {
+  margin-left: 15px;
+}
+
+.navIcons img {
+  margin-right: 15px;
+}
