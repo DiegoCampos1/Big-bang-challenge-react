@@ -13,3 +13,31 @@
   align-items: center;
   justify-content: center;
 }
+
+.elipse {
+  background: #73A8A0;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  align-items: center;
+  /* position: absolute; */
+  
+}
+.elipseImg {
+  background: #73A8A0;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  align-items: center;
+  /* position: absolute; */
+  
+}
