@@ -1,0 +1,15 @@
+.baner {
+  background-image: url(../../images/banner.png);
+  /* position: absolute; */
+  width: 80%;
+  /* min-height: 250px; */
+  text-align: right;
+  /* left: 1074px; */
+  /* top: 208px; */
+}
+
+.inicioContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
