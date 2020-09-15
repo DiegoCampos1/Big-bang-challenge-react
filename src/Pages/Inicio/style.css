@@ -1,43 +1,183 @@
+@font-face {
+  font-family: Chloe;
+  src: url('/home/diego/Big Bang Shop/Big-bag-challenge-react/src/fonts/Chloe-Regular.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('/home/diego/Big Bang Shop/Big-bag-challenge-react/src/fonts/proxima-nova-light.otf')
+    format('opentype');
+}
+.centralContainer {
+  width: 70%;
+}
 .baner {
   background-image: url(../../images/banner.png);
-  /* position: absolute; */
-  width: 80%;
-  /* min-height: 250px; */
-  text-align: right;
-  /* left: 1074px; */
-  /* top: 208px; */
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: 1px solid grey;
+  
+  height: 190px;
+}
+
+.baner h4 {
+  font-size: 2em;
+  font-family: Chloe, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-left: 70%;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.baner p {
+  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-left: 70%;
+  margin-right: 30px;
+  padding-top: 0;
 }
 
 .inicioContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+
 }
 
 .elipse {
-  background: #73A8A0;
+  background: #73a8a0;
   display: flex;
   width: 100px;
   height: 100px;
   border-radius: 50%;
   text-align: center;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   align-items: center;
-  /* position: absolute; */
-  
+  color: white;
+  font-weight: 600;
+
 }
+
 .elipseImg {
-  background: #73A8A0;
+  background: #73a8a0;
   display: flex;
   width: 100px;
   height: 100px;
   border-radius: 50%;
   text-align: center;
   justify-content: center;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
   align-items: center;
-  /* position: absolute; */
-  
+}
+
+.buttonLorem {
+  background: #73a8a0;
+  margin-left: 79%;
+  padding: 7px;
+  border: 0px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: white;
+}
+
+.bannersLinks {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
+  grid-template-rows: 1.5fr 1.5fr 1fr;
+  gap: 10px 10px;
+}
+
+.biggerBannerYoga {
+  background-image: url(../../images/yoga1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  grid-column-start: 1; /*De onde a celula deve começar*/
+  grid-column-end: 3; /*Onde deve terminar*/
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+.biggerBannerYoga h4 {
+  padding-top: 40%;
+  font-size: 2em;
+  font-family: Chloe, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.MediumBannerYoga {
+  background-image: url(../../images/yoga2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  grid-column-start: 3; /*De onde a celula deve começar*/
+  grid-column-end: 5; /*Onde deve terminar*/
+
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+}
+
+.MediumBannerYoga h3 {
+  font-family: Chloe, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: white;
+  margin-left: 10px;
+}
+
+a {
+  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
+  color: white;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+
+.imersaoPicture {
+  background-image: url(../../images/yoga3.png);
+  background-size: contain;
+  /* background-attachment: fixed; */
+  background-position: center center;
+  /* background-repeat: no-repeat; */
+  /* min-width: 50%;
+  height: 100%;
+  margin-right: 10px;
+  margin-top: 10px; */
+  grid-column-start: 3; /*De onde a celula deve começar*/
+  grid-column-end: 4; /*Onde deve terminar*/
+
+
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.CondiciondorPicture {
+  background-image: url(../../images/condicionador.png);
+  background-size: 100%;
+
+  background-repeat: no-repeat;
+  grid-column-start: 4; /*De onde a celula deve começar*/
+  grid-column-end: 4; /*Onde deve terminar*/
+
+
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.microBanners {
+  display: flex;
+}
+
+.banerShop {
+  border: 1px solid gray;
+  grid-column-start: 1; /*De onde a celula deve começar*/
+  grid-column-end: 5; /*Onde deve terminar*/
+  grid-row-start: 3;
+  grid-row-end: 3;
 }
