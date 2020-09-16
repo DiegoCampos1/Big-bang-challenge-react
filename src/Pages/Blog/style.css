@@ -33,6 +33,10 @@ h3 {
   padding: 10px;
 }
 
+.bannersUp a {
+  color: white;
+  margin-left: 15px;
+}
 .bannersDown {
   display: flex;
   /* word-wrap: break-word; */
