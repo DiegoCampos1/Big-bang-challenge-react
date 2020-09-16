@@ -49,7 +49,7 @@ const Inicio = () => {
                 <h5>Recomemendam</h5>
               </div>
               {produtosRecomendados.map((product) => (
-                <div className="productClass">
+                <div key={`${product.nome} 2`} className="productClass">
                   <img className="imageProduct" src={product.picture} alt="ImagemProduto" />
                   <p className="paragrafoDestaque">{product.nome}</p>
                   <p className="ParagrafoDescricao">{product.descricicao}</p>
@@ -57,7 +57,7 @@ const Inicio = () => {
                 </div>
               ))}
               {produtosRecomendados.map((product) => (
-                <div className="productClass">
+                <div key={`${product.nome} 1`} className="productClass">
                   <img className="imageProduct" src={product.picture} alt="ImagemProduto" />
                   <p className="paragrafoDestaque">{product.nome}</p>
                   <p className="ParagrafoDescricao">{product.descricicao}</p>

@@ -198,9 +198,9 @@ h3 {
 
 .banerShop {
   align-items: center;
+  border: 1px solid #C4C4C4;
   border-left-width: 0;
   border-right-width: 0;
-  border: 1px solid #C4C4C4;
   display: flex;
   grid-column-end: 5;
   grid-column-start: 1;

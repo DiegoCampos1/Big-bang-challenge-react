@@ -17,7 +17,7 @@ const Header = () => {
       <div className="headerContainer">
         <nav className="navBar">
           {navElements.map((element) => (
-            <Link to={element === 'INICIO' ? '/' : element}>
+            <Link key={`${element}`} to={element === 'INICIO' ? '/' : element}>
               <div>{element}</div>
             </Link>
           ))}
@@ -25,7 +25,7 @@ const Header = () => {
         <img src={Logo} alt="LogoImage" />
         <nav className="navIcons">
           {navIcons.map((element) => (
-            <img src={element} alt="IconImage" />
+            <img key={`${element}`} src={element} alt="IconImage" />
           ))}
         </nav>
       </div>
