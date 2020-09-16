@@ -14,6 +14,8 @@
 }
 .baner {
   background-image: url(../../images/banner.png);
+  background-size: contain;
+  background-position: center center;
   width: 100%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -86,13 +88,17 @@
   margin-top: 10px;
   display: grid;
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
-  grid-template-rows: 1.5fr 1.5fr 1fr;
+  grid-template-rows: 1.5fr 1.5fr 2.2fr;
   gap: 10px 10px;
 }
 
 .biggerBannerYoga {
   background-image: url(../../images/yoga1.png);
-  background-size: 100%;
+  /* background-size: contain; */
+  /* background-position: center center;
+  background-size: 100%; */
+  background-size: contain;
+  background-position: center center;
   background-repeat: no-repeat;
   grid-column-start: 1; /*De onde a celula deve começar*/
   grid-column-end: 3; /*Onde deve terminar*/
@@ -113,8 +119,10 @@
 
 .MediumBannerYoga {
   background-image: url(../../images/yoga2.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+
+  /* background-repeat: no-repeat; */
   grid-column-start: 3; /*De onde a celula deve começar*/
   grid-column-end: 5; /*Onde deve terminar*/
 
@@ -141,7 +149,7 @@ a {
 
 .imersaoPicture {
   background-image: url(../../images/yoga3.png);
-  background-size: contain;
+  background-size: 100%;
   /* background-attachment: fixed; */
   background-position: center center;
   /* background-repeat: no-repeat; */
@@ -159,8 +167,9 @@ a {
 
 .CondiciondorPicture {
   background-image: url(../../images/condicionador.png);
-  background-size: 100%;
 
+  background-size: %;
+  background-position: center center;
   background-repeat: no-repeat;
   grid-column-start: 4; /*De onde a celula deve começar*/
   grid-column-end: 4; /*Onde deve terminar*/
@@ -180,4 +189,6 @@ a {
   grid-column-end: 5; /*Onde deve terminar*/
   grid-row-start: 3;
   grid-row-end: 3;
+  display: flex;
+  width: 100%;
 }
