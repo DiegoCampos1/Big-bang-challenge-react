@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import arrow from '../../images/arrow.png';
+import arrow2 from '../../images/arrow2.png';
 import produtosRecomendados from '../../store/products';
 
 const Inicio = () => {
@@ -33,15 +34,17 @@ const Inicio = () => {
 
             <div className="MediumBannerYoga">
               <a href="/">Namahcast #122</a>
-              <h3>Nome do episódio do podcast lorem ipsum dolor sit amet consectetur eli...</h3>
+              <h3 className="titulosBaner">Nome do episódio do podcast lorem ipsum dolor sit amet consectetur eli...</h3>
             </div>
             <div className="imersaoPicture">
               <a href="/">Curso - 04 ABR</a>
-              <h3>Imersão Vinyasa Flow</h3>
+              <h3 className="titulosBaner">Imersão Vinyasa Flow</h3>
             </div>
             <div className="CondiciondorPicture">
-              <h3>Condicionador Namah</h3>
-              <a href="/">compre agora</a>
+              <h3 className="titulosBaner">Condicionador Namah</h3>
+              <a href="/">
+                compre agora <img src={arrow2} alt="arrow" />
+              </a>
             </div>
             <div className="banerShop">
               <div className="recomendacoes">

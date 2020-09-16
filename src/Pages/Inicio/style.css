@@ -11,7 +11,7 @@
 }
 
 .centralContainer {
-  width: 70%;
+  max-width: 80%;
 }
 
 .baner {
@@ -98,7 +98,7 @@
 }
 
 .biggerBannerYoga {
-  background-image: url(../../images/yoga1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../../images/yoga1.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -128,7 +128,7 @@
 }
 
 .MediumBannerYoga {
-  background-image: url(../../images/yoga2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../../images/yoga2.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -141,7 +141,7 @@
   justify-content: flex-end;
 }
 
-.MediumBannerYoga h3 {
+.titulosBaner {
   color: white;
   font-family: Chloe, Arial, Helvetica, sans-serif;
   font-weight: 300;
@@ -156,7 +156,7 @@ a {
 }
 
 .imersaoPicture {
-  background-image: url(../../images/yoga3.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../../images/yoga3.png);
   background-position: center center;
   background-size: 100%;
   display: flex;
@@ -169,7 +169,7 @@ a {
 }
 
 .CondiciondorPicture {
-  background-image: url(../../images/condicionador.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../../images/condicionador.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;

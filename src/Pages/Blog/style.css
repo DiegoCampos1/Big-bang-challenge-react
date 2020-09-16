@@ -1,0 +1,141 @@
+@font-face {
+  font-family: Chloe;
+  src: url('/home/diego/Big Bang Shop/Big-bag-challenge-react/src/fonts/Chloe-Regular.otf')
+    format('opentype');
+}
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('/home/diego/Big Bang Shop/Big-bag-challenge-react/src/fonts/proxima-nova-light.otf')
+    format('opentype');
+}
+
+h3 {
+  color: black;
+}
+.align {
+  max-width: 80%;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* width: 70%; */
+  align-items: center;
+}
+
+.bannersUp {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bannersDown {
+  display: flex;
+  /* word-wrap: break-word; */
+  justify-content: center;
+  width: 100%;
+}
+
+.bannersDown div {
+  margin: 16px;
+  width: 100%;
+}
+
+.bannersDown a {
+  color: black;
+}
+
+.bannersDown img {
+  width: 100%;
+}
+
+.bannersDown p {
+  color: black;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.BanerYoga {
+  margin-right: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(../../images/yoga1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  /* height: 400px; */
+}
+
+.BanerYoga h4 {
+  color: white;
+  font-family: Chloe, Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.BanerMusculacao {
+  margin-left: 10px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(../../images/musculacao.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 340px;
+}
+
+.BanerMusculacao h4 {
+  color: white;
+  font-family: Chloe, Arial, Helvetica, sans-serif;
+  font-size: 42px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #73a8a0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.newsletter spam {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 50px;
+
+  /* justify-content: center; */
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #73a8a0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
