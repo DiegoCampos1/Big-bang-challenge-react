@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 import Logo from '../../images/Group.png';
 import search from '../../images/search.png';
@@ -16,7 +17,9 @@ const Header = () => {
       <div className="headerContainer">
         <nav className="navBar">
           {navElements.map((element) => (
-            <div>{element}</div>
+            <Link to={element === 'INICIO' ? '/' : element}>
+              <div>{element}</div>
+            </Link>
           ))}
         </nav>
         <img src={Logo} alt="LogoImage" />
