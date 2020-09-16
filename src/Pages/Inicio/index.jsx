@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 import arrow from '../../images/arrow.png';
 import arrow2 from '../../images/arrow2.png';
-import produtosRecomendados from '../../store/products';
+import {produtosRecomendados} from '../../store/products';
 
 const Inicio = () => {
   return (
