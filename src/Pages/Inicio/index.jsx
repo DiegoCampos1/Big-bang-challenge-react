@@ -10,17 +10,21 @@ const Inicio = () => {
         <div className="elipse">O que é Namah?</div>
         <div className="centralContainer">
           <div className="baner">
+            <div className="banerLetters">
             <h4>Lorem, ipsum dolor sit amet</h4>
             <p>Lorem, ipsum dolor sit amet</p>
             <button className="buttonLorem" type="button">
               LOREM IPSUM
             </button>
+            </div>
           </div>
           <div className="bannersLinks">
             <div className="biggerBannerYoga">
               <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-              <a href="/">VIAGEM</a>
-              <a href="/">por Fulano de Tal</a>
+              <div>
+              <a className="linkBigBanner" href="/">VIAGEM</a>
+              <a className="linkBigBanner" href="/">por Fulano de Tal</a>
+              </div>
             </div>
 
             <div className="MediumBannerYoga">
@@ -36,12 +40,12 @@ const Inicio = () => {
               <a href="/">compre agora</a>
             </div>
             <div className="banerShop">
-              <div>
+              <div className="recomendacoes">
                 <p>Nossos especialistas</p>
                 <h5>Recomemendam</h5>
               </div>
               {produtosRecomendados.map((product) => (
-                <div>
+                <div className="productClass">
                   <img className="imageProduct" src={product.picture} alt="ImagemProduto" />
                   <p className="paragrafoDestaque">{product.nome}</p>
                   <p className="ParagrafoDescricao">{product.descricicao}</p>
@@ -49,7 +53,7 @@ const Inicio = () => {
                 </div>
               ))}
               {produtosRecomendados.map((product) => (
-                <div>
+                <div className="productClass">
                   <img className="imageProduct" src={product.picture} alt="ImagemProduto" />
                   <p className="paragrafoDestaque">{product.nome}</p>
                   <p className="ParagrafoDescricao">{product.descricicao}</p>

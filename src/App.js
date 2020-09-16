@@ -1,13 +1,16 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './Components/Header';
 import Inicio from './Pages/Inicio';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
-      <Inicio />
-    </div>
+      <Switch>
+        <Route exact path="/" component={Inicio} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
