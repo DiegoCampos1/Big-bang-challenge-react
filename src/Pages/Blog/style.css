@@ -71,7 +71,6 @@ h3 {
   flex-direction: column;
   justify-content: flex-end;
   width: 100%;
-  /* height: 400px; */
 }
 
 .BanerYoga h4 {
@@ -86,7 +85,6 @@ h3 {
 
 .BanerMusculacao {
   margin-left: 10px;
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
     url(../../images/musculacao.png);
   background-size: 100%;
@@ -118,7 +116,7 @@ h3 {
 }
 
 .newsletter spam {
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -127,15 +125,49 @@ h3 {
   padding-right: 50px;
   padding-left: 50px;
   margin-top: 50px;
-
-  /* justify-content: center; */
+  color: #666666;
 }
 
-.newsletter {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #73a8a0;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+.newsletter p {
+  color: #666666;
+  font-size: 15px;
+}
+
+.newsletter h3 {
+  font-size: 40px;
+}
+
+.newsletter input {
+  width: 250px;
+  height: 40px;
+  color: #666666;
+  font-size: 15px;
+  padding-left: 15px;
+}
+
+.newsletter button {
+  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  background: white;
+  border: 1px solid #666666;
+  margin-top: 40px;
+  padding: 10px 30px;
+}
+
+.divButton button {
+  background: #73A8A0;
+  width: 289px;
+height: 52px;
+color: white;
+border: 0;
+font-family: Proxima Nova;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+}
+
+.divButton img {
+margin-left: 10px;
 }

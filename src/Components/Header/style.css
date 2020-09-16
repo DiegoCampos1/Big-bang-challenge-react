@@ -9,8 +9,8 @@
   font-family: Proxima Nova, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 12px;
+  
 }
 
 .headerContainer {
@@ -20,10 +20,14 @@
 }
 
 .navBar div {
-  margin-left: 0;
+  margin-left: 10px;
   color: black;
 }
 
 .navIcons img {
   margin-right: 30px;
+}
+
+.links {
+  text-decoration: none;
 }

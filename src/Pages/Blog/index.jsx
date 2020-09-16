@@ -60,7 +60,7 @@ const Blog = () => {
         </div>
         <div className="divButton">
           <button type="button">
-            VEJA TODOS OS POSTS
+            VEJA TODOS OS POSTS 
             <img src={arrow2} alt="arrow" />
           </button>
         </div>
