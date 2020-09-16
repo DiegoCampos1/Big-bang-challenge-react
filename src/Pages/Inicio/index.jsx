@@ -42,18 +42,18 @@ const Inicio = () => {
               </div>
               {produtosRecomendados.map((product) => (
                 <div>
-                  <img src={product.picture}></img>
-                  <p>{product.nome}</p>
-                  <p>{product.descricicao}</p>
-                  <p>{product.valor}</p>
+                  <img className="imageProduct" src={product.picture} alt="ImagemProduto" />
+                  <p className="paragrafoDestaque">{product.nome}</p>
+                  <p className="ParagrafoDescricao">{product.descricicao}</p>
+                  <p className="paragrafoValor">{product.valor}</p>
                 </div>
               ))}
               {produtosRecomendados.map((product) => (
                 <div>
-                  <img src={product.picture}></img>
-                  <p>{product.nome}</p>
-                  <p>{product.descricicao}</p>
-                  <p>{product.valor}</p>
+                  <img className="imageProduct" src={product.picture} alt="ImagemProduto" />
+                  <p className="paragrafoDestaque">{product.nome}</p>
+                  <p className="ParagrafoDescricao">{product.descricicao}</p>
+                  <p className="paragrafoValor">{product.valor}</p>
                 </div>
               ))}
             </div>
