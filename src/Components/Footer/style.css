@@ -61,7 +61,7 @@ body {
 }
 
 .titulosFooter {
-  font-family: Proxima Nova;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
@@ -71,7 +71,7 @@ body {
 }
 
 .paragrafoSuperior {
-  font-family: Proxima Nova;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -80,7 +80,7 @@ body {
 }
 
 .paragrafoInferior {
-  font-family: Proxima Nova;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -88,7 +88,7 @@ body {
   text-align: left;
 }
 
-.hrFooter {
+hr {
   width: 88%;
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .ButtonFooter {
-  font-family: Proxima Nova;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   size: 13px;
   font-weight: 600;
   background-color: black;
@@ -115,8 +115,7 @@ body {
 }
 
 .linkFooter {
-  font-family: Proxima Nova;
-  font-size: 11px;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: white;
 }

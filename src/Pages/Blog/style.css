@@ -1,13 +1,11 @@
 @font-face {
   font-family: Chloe;
-  src: url('/home/diego/Big Bang Shop/Big-bag-challenge-react/src/fonts/Chloe-Regular.otf')
-    format('opentype');
+  src: url('../../fonts/Chloe-Regular.otf') format('opentype');
 }
 
 @font-face {
-  font-family: Proxima Nova;
-  src: url('/home/diego/Big Bang Shop/Big-bag-challenge-react/src/fonts/proxima-nova-light.otf')
-    format('opentype');
+  font-family: proxima;
+  src: url('../../fonts/proxima-nova-light.otf') format('opentype');
 }
 
 h3 {
@@ -37,7 +35,9 @@ h3 {
 .bannersUp a {
   color: white;
   margin-left: 15px;
+  font-family: proxima, Arial, Helvetica, sans-serif;
 }
+
 .bannersDown {
   display: flex;
   /* word-wrap: break-word; */
@@ -52,15 +52,16 @@ h3 {
 
 .bannersDown a {
   color: black;
+  font-family: proxima, Arial, Helvetica, sans-serif;
 }
 
 .bannersDown img {
   width: 100%;
 }
 
-.bannersDown p {
+.bannersDownP {
   color: black;
-  font-family: Proxima Nova;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -121,7 +122,7 @@ h3 {
 }
 
 .newsletter spam {
-  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -136,6 +137,8 @@ h3 {
 .newsletter p {
   color: #666666;
   font-size: 15px;
+  font-family: proxima, Arial, Helvetica, sans-serif;
+  
 }
 
 .newsletter h3 {
@@ -148,10 +151,11 @@ h3 {
   color: #666666;
   font-size: 15px;
   padding-left: 15px;
+  font-family: proxima, Arial, Helvetica, sans-serif;
 }
 
 .newsletter button {
-  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -162,17 +166,18 @@ h3 {
 }
 
 .divButton button {
-  background: #73A8A0;
+  background: #73a8a0;
   width: 289px;
-height: 52px;
-color: white;
-border: 0;
-font-family: Proxima Nova;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
+  height: 52px;
+  color: white;
+  border: 0;
+  font-family: proxima;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
 }
 
 .divButton img {
-margin-left: 10px;
+  margin-left: 10px;
 }
+

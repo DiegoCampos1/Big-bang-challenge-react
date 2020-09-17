@@ -1,12 +1,12 @@
 @font-face {
-  font-family: Proxima Nova;
+  font-family: proxima;
   src: url('/home/diego/Big Bang Shop/Big-bag-challenge-react/src/fonts/proxima-nova-light.otf')
     format('opentype');
 }
 
 .navBar {
   display: flex;
-  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -30,4 +30,8 @@
 
 .links {
   text-decoration: none;
+}
+
+.hrHeader {
+  width: 100%;
 }

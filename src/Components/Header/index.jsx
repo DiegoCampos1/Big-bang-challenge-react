@@ -29,7 +29,7 @@ const Header = () => {
           ))}
         </nav>
       </div>
-      <hr />
+      <hr className="hrHeader" />
     </div>
   );
 };

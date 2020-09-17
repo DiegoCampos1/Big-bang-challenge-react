@@ -39,7 +39,7 @@ const Blog = () => {
             <a className="linkBigBanner" href="/">
               VIAGEM
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+            <p className="bannersDownP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
           </div>
           <div>
             <img src={musculacao} alt="musculacao" />
@@ -47,7 +47,7 @@ const Blog = () => {
             <a className="linkBigBanner" href="/">
               VIAGEM
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
+            <p className="bannersDownP">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna...</p>
           </div>
           <div className="newsletter">
             <h3>Namah </h3>

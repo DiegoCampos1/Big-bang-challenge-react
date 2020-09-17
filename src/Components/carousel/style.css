@@ -1,0 +1,17 @@
+.productDescription {
+  font-family: proxima, Arial, Helvetica, sans-serif;
+
+}
+
+.productvalue {
+  font-family: proxima, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.containerCarousel{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
