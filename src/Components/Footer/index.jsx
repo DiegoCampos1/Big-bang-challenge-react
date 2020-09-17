@@ -40,7 +40,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <hr />
+      <hr className="hrFooter" />
       <div className="containerInferior">
         <div className="cnpj">
           <p className="paragrafoInferior">

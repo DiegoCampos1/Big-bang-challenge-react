@@ -7,6 +7,7 @@ import Podcasts from './Pages/podcasts';
 import Cursos from './Pages/Cursos';
 import Contato from './Pages/Contato';
 import Footer from './Components/Footer';
+import Loja from './Pages/Loja';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/PODCASTS" component={Podcasts} />
           <Route exact path="/CURSOS" component={Cursos} />
           <Route exact path="/CONTATO" component={Contato} />
+          <Route exact path="/LOJA" component={Loja} />
         </Switch>
         <div className="push" />
       </div>
