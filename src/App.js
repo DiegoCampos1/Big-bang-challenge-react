@@ -5,6 +5,7 @@ import Inicio from './Pages/Inicio';
 import Blog from './Pages/Blog';
 import Podcasts from './Pages/podcasts';
 import Cursos from './Pages/Cursos';
+import Contato from './Pages/Contato';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/BLOG" component={Blog} />
         <Route exact path="/PODCASTS" component={Podcasts} />
         <Route exact path="/CURSOS" component={Cursos} />
+        <Route exact path="/CONTATO" component={Contato} />
       </Switch>
     </BrowserRouter>
   );

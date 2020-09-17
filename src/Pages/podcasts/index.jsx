@@ -15,7 +15,7 @@ const Podcasts = () => {
             <div className="containerDescricao">
               <p className="podcastDescricao">{podcast.descricao}</p>
               <div className="ellipseImg">
-              <img src={play} alt="" />
+                <img src={play} alt="play" />
               </div>
             </div>
           </div>
