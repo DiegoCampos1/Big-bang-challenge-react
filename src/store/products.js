@@ -29,7 +29,7 @@ export const produtosRecomendados = [
 
 export const produtosShop = [
   {
-    nome: 'Ovo de Páscoa de Paçoca',
+    nome: 'Ovo de Páscoa',
     descricicao: 'Lorem ipsum dolor',
     valor: 'R$ 65,00',
     picture: ovo,
