@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/CURSOS" component={Cursos} />
           <Route exact path="/CONTATO" component={Contato} />
         </Switch>
-        <div className="push"></div>
+        <div className="push" />
       </div>
       <Footer />
     </BrowserRouter>

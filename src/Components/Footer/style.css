@@ -10,8 +10,9 @@ body {
 }
 
 .push {
-  height: 144px;
+  height: 100px;
 }
+
 .footerContainer {
   background: black;
   height: 100px;
