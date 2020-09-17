@@ -16,28 +16,107 @@ body {
 .footerContainer {
   background: black;
   height: 100%;
-  bottom: 0px;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   color: white;
+  align-items: center;
+  
 }
 
 .containerSuperior {
+  width: 90%;
   display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 .containerInferior {
+  width: 90%;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .pagamento {
   display: flex;
+  align-items: center;
+}
+
+.imagemPagamento {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
 }
 
 .siteSeguro {
   display: flex;
+  align-items: center;
 }
 
 .containerInput {
   display: flex;
+}
+
+.titulosFooter {
+  font-family: Proxima Nova;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.paragrafoSuperior {
+  font-family: Proxima Nova;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.paragrafoInferior {
+  font-family: Proxima Nova;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+hr {
+  width: 88%;
+}
+
+.imagemSiteSeguro {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.inputFooter {
+  width: 250px;
+  height: 30px;
+}
+
+.ButtonFooter {
+  font-family: Proxima Nova;
+  size: 13px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  margin-left: 15px;
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+.linkFooter {
+  font-family: Proxima Nova;
+  font-size: 11px;
+  font-weight: 400;
+  color: white;
 }

@@ -24,19 +24,19 @@ const Footer = () => {
           <p className="titulosFooter">Loja</p>
           <p className="paragrafoSuperior">Cadastre-se</p>
           <p className="paragrafoSuperior">Área do lojista</p>
-
         </div>
         <div className="atendimento">
           <p className="titulosFooter">Atendimento</p>
           <p className="paragrafoSuperior">hello@espaconamah.com.br</p>
           <p className="paragrafoSuperior">(31) 2515 6200</p>
-
         </div>
-        <div className="newsletter">
+        <div className="newsletterFooter">
           <p className="titulosFooter">Assine nossa Newsletter</p>
           <div className="containerInput">
             <input className="inputFooter" type="e-mail" placeholder="Seu endereço de e-mail" />
-            <button type="button">ASSINAR</button>
+            <button className="ButtonFooter" type="button">
+              ASSINAR
+            </button>
           </div>
         </div>
       </div>
@@ -49,14 +49,14 @@ const Footer = () => {
         </div>
         <div className="pagamento">
           <p className="paragrafoInferior">Formas de pagamento:</p>
-          <img src={visa} alt="visa" />
-          <img src={master} alt="mastercard" />
-          <img src={banco3} alt="Dinners" />
-          <img src={american} alt="American Express" />
-          <img src={boleto} alt="Boleto bancario" />
+          <img className="imagemPagamento" src={visa} alt="visa" />
+          <img className="imagemPagamento" src={master} alt="mastercard" />
+          <img className="imagemPagamento" src={banco3} alt="Dinners" />
+          <img className="imagemPagamento" src={american} alt="American Express" />
+          <img className="imagemPagamento" src={boleto} alt="Boleto bancario" />
         </div>
         <div className="siteSeguro">
-          <img src={cadeado} alt="Site Seguro" />
+          <img className="imagemSiteSeguro" src={cadeado} alt="Site Seguro" />
           <p className="paragrafoInferior">Site seguro</p>
         </div>
         <div className="FAQ">
@@ -67,7 +67,7 @@ const Footer = () => {
         <div className="bigBang">
           <p className="paragrafoInferior">
             Site por
-            <strong>BIG BANG SHOP</strong>
+            <strong> BIG BANG SHOP</strong>
           </p>
         </div>
       </div>
