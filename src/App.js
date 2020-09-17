@@ -6,6 +6,7 @@ import Blog from './Pages/Blog';
 import Podcasts from './Pages/podcasts';
 import Cursos from './Pages/Cursos';
 import Contato from './Pages/Contato';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/CURSOS" component={Cursos} />
         <Route exact path="/CONTATO" component={Contato} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
