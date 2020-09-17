@@ -17,7 +17,7 @@ const Header = () => {
       <div className="headerContainer">
         <nav className="navBar">
           {navElements.map((element) => (
-            <Link className="links" key={`${element}`} to={element === 'INICIO' ? '/' : element}>
+            <Link className="links" key={`${element}`} to={element === 'INICIO' ? '/' : element.toLowerCase()}>
               <div>{element}</div>
             </Link>
           ))}

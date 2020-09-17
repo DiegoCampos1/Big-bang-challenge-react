@@ -16,11 +16,11 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Inicio} />
-          <Route exact path="/BLOG" component={Blog} />
-          <Route exact path="/PODCASTS" component={Podcasts} />
-          <Route exact path="/CURSOS" component={Cursos} />
-          <Route exact path="/CONTATO" component={Contato} />
-          <Route exact path="/LOJA" component={Loja} />
+          <Route exact path="/blog" component={Blog} />
+          <Route exact path="/podcasts" component={Podcasts} />
+          <Route exact path="/cursos" component={Cursos} />
+          <Route exact path="/contato" component={Contato} />
+          <Route exact path="/loja" component={Loja} />
         </Switch>
         <div className="push" />
       </div>
