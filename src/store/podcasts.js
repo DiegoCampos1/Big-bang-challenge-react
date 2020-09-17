@@ -13,15 +13,19 @@ const podcasts = [
   },
   {
     picture: yoga7,
-    date: '04 Abr - 05 Abr',
-    titulo: 'Imersão Vinyasa Flow',
-    autor: 'Por Fernanda Cunha',
+    numero: 'Namacast #124',
+    titulo:
+      'Título do podcast lorem ipsum dolor sit amet, consectetur elit tempor ut labore magna aliqua et dolore',
+    descricao:
+      'Descrição do episódio do podcast lorem ipsum dolor sit amet, consectetur elit tempor'
   },
   {
     picture: yoga5,
-    date: '04 Abr - 05 Abr',
-    titulo: 'Imersão Vinyasa Flow',
-    autor: 'Por Fernanda Cunha',
+    numero: 'Namacast #125',
+    titulo:
+      'Título do podcast lorem ipsum dolor sit amet, consectetur elit tempor ut labore magna aliqua et dolore',
+    descricao:
+      'Descrição do episódio do podcast lorem ipsum dolor sit amet, consectetur elit tempor'
   },
 ];
 
