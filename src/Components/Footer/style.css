@@ -15,6 +15,29 @@ body {
 
 .footerContainer {
   background: black;
-  height: 100px;
+  height: 100%;
   bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.containerSuperior {
+  display: flex;
+}
+
+.containerInferior {
+  display: flex;
+}
+
+.pagamento {
+  display: flex;
+}
+
+.siteSeguro {
+  display: flex;
+}
+
+.containerInput {
+  display: flex;
 }
