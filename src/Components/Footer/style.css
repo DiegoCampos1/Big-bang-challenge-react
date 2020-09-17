@@ -1,7 +1,19 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.push {
+  height: 144px;
+}
 .footerContainer {
   background: black;
-  height: 258px;
-  left: 0;
-  bottom: 0;
-  position: absolute;
+  height: 100px;
+  bottom: 0px;
 }
