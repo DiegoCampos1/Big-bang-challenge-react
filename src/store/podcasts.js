@@ -1,4 +1,4 @@
-import yoga3 from '../images/yoga3.png';
+import yoga7 from '../images/yoga7.png';
 import yoga4 from '../images/yoga4.png';
 import yoga5 from '../images/yoga5.png';
 
@@ -12,7 +12,7 @@ const podcasts = [
       'Descrição do episódio do podcast lorem ipsum dolor sit amet, consectetur elit tempor',
   },
   {
-    picture: yoga3,
+    picture: yoga7,
     date: '04 Abr - 05 Abr',
     titulo: 'Imersão Vinyasa Flow',
     autor: 'Por Fernanda Cunha',

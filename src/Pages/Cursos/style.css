@@ -1,0 +1,50 @@
+.containerCursos {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cursoCard {
+  margin-top: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.cursoCard img {
+  width: 300px;
+  height: 150px;
+}
+
+.date {
+  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #73a8a0;
+  padding-left: 7px;
+}
+
+.titulo {
+  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 7px;
+}
+
+.autor .tempo {
+  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.autor {
+  padding-left: 7px;
+}
+
+.tempo {
+  padding-left: 7px;
+}
