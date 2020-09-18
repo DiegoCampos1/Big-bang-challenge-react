@@ -14,7 +14,7 @@ const Contato = () => {
       <h4 className="contatoInstagram">@namah.concept</h4>
       <div className="picturesContainer">
         {pictures.map((picture) => (
-          <img className="instaPicture" src={picture} alt={picture} />
+          <img className="instaPicture" src={picture} alt={picture} key={picture} />
         ))}
       </div>
     </div>
