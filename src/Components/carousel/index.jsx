@@ -26,7 +26,7 @@ const CarouselPage = () => {
         <MDBCarouselInner>
           <div className="containerCarousel">
             {produtosShop.map((produto, index) => (
-              <MDBCarouselItem itemId={index + 1}>
+              <MDBCarouselItem key={produto.nome} itemId={index + 1}>
                 <MDBView>
                   <img
                     className="d-block w-100"
@@ -37,7 +37,7 @@ const CarouselPage = () => {
                   <MDBMask overlay="black-light" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">{produtosShop[0].nome}</h3>
+                  <h3 className="h3-responsive">{produto.nome}</h3>
                   <p className="productDescription">{produto.descricicao}</p>
                   <p className="productvalue">{produto.valor}</p>
                 </MDBCarouselCaption>

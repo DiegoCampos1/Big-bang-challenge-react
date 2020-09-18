@@ -55,7 +55,7 @@ const Blog = () => {
             <p>Assine nossa newsletter</p>
             <input type="e-mail" placeholder="Seu e-mail"></input>
             <button type="button">ASSINAR </button>
-            <spam>Ao clicar em “assinar”, você concorda em receber e-mails do Espaço Namah a aceita nossos Termos de Uso e nossas Políticas de Privacidade.</spam>
+            <p className="avisoNewsletter">Ao clicar em “assinar”, você concorda em receber e-mails do Espaço Namah a aceita nossos Termos de Uso e nossas Políticas de Privacidade.</p>
           </div>
         </div>
         <div className="divButton">

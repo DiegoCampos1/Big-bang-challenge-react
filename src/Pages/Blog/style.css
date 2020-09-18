@@ -121,15 +121,15 @@ h3 {
   width: 100%;
 }
 
-.newsletter spam {
+.avisoNewsletter {
   font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   line-height: 13px;
   text-align: center;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-top: 50px;
   color: #666666;
 }

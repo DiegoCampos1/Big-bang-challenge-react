@@ -47,7 +47,7 @@ describe('Testes do Footer', () => {
   });
 
   test('Testando se temos um input', () => {
-    const { getByText } = renderWithRouter(<App />);
+    renderWithRouter(<App />);
     const input = document.getElementsByClassName('inputFooter');
     expect(input.length).toBe(1);
   });
