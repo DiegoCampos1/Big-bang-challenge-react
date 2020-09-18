@@ -1,10 +1,10 @@
 # Desafio Big Bang Shop
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas:
 
 Trabalho desenvolvido em React/js, com algumas Libs em suporte, BrowserRouter para as rotas, esLint para padrão de codigo, RTL para os testes, e test-covarage para cobertura dos testes.
 
-## Instruções para execução
+## Instruções para execução:
 
 1 - Clone este repositório
 
