@@ -17,7 +17,7 @@ const podcasts = [
     titulo:
       'Título do podcast lorem ipsum dolor sit amet, consectetur elit tempor ut labore magna aliqua et dolore',
     descricao:
-      'Descrição do episódio do podcast lorem ipsum dolor sit amet, consectetur elit tempor'
+      'Descrição do episódio do podcast lorem ipsum dolor sit amet, consectetur elit tempor',
   },
   {
     picture: yoga5,
@@ -25,7 +25,7 @@ const podcasts = [
     titulo:
       'Título do podcast lorem ipsum dolor sit amet, consectetur elit tempor ut labore magna aliqua et dolore',
     descricao:
-      'Descrição do episódio do podcast lorem ipsum dolor sit amet, consectetur elit tempor'
+      'Descrição do episódio do podcast lorem ipsum dolor sit amet, consectetur elit tempor',
   },
 ];
 

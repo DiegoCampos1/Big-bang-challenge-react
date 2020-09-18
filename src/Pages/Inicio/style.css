@@ -15,11 +15,11 @@
 }
 
 .baner {
-  background-image: url(../../images/banner.png);
+  background-image: url('../../images/banner.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
-  border: 1px solid #C4C4C4;
+  border: 1px solid #c4c4c4;
   height: 190px;
   width: 100%;
 }
@@ -98,16 +98,16 @@
 }
 
 .biggerBannerYoga {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../../images/yoga1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('../../images/yoga1.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   flex-direction: column;
-  grid-column-end: 3;
   grid-column-start: 1;
-  grid-row-end: 3;
+  grid-column-end: 3;
   grid-row-start: 1;
+  grid-row-end: 3;
   justify-content: flex-end;
   padding-bottom: 10px;
 }
@@ -128,16 +128,16 @@
 }
 
 .MediumBannerYoga {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../../images/yoga2.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('../../images/yoga2.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   flex-direction: column;
+  grid-column-start: 3;
   grid-column-end: 5;
-  grid-column-start: 3; 
-  grid-row-end: 1;
   grid-row-start: 1;
+  grid-row-end: 1;
   justify-content: flex-end;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .imersaoPicture {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../../images/yoga3.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url('../../images/yoga3.png');
   background-position: center center;
   background-size: 100%;
   display: flex;
@@ -188,7 +188,7 @@
 
 
 .CondiciondorPicture {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../../images/condicionador.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('../../images/condicionador.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -217,14 +217,14 @@ h3 {
 
 .banerShop {
   align-items: center;
-  border: 1px solid #C4C4C4;
+  border: 1px solid #c4c4c4;
   border-left-width: 0;
   border-right-width: 0;
   display: flex;
-  grid-column-end: 5;
   grid-column-start: 1;
-  grid-row-end: 3;
+  grid-column-end: 5;
   grid-row-start: 3;
+  grid-row-end: 3;
   justify-content: space-around;
   width: 100%;
 }

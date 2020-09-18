@@ -9,13 +9,12 @@
 
 .podcastCard {
   margin-top: 30px;
-
   margin-left: 20px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 }
+
 .podcastPicture {
   width: 300px;
-  /* height: 150px; */
 }
 
 .podcastNumero {
@@ -32,14 +31,14 @@
   padding-left: 7px;
   font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
 }
 
 .podcastDescricao {
   font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 12px;
   padding-left: 7px;
 

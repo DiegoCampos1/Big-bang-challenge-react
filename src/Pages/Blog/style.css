@@ -14,7 +14,6 @@ h3 {
 
 .align {
   max-width: 80%;
-  /* display: block; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -22,7 +21,6 @@ h3 {
 .container {
   display: flex;
   flex-direction: column;
-  /* width: 70%; */
   align-items: center;
 }
 
@@ -40,7 +38,6 @@ h3 {
 
 .bannersDown {
   display: flex;
-  /* word-wrap: break-word; */
   justify-content: center;
   width: 100%;
 }
@@ -63,14 +60,14 @@ h3 {
   color: black;
   font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
 }
 
 .BanerYoga {
   margin-right: 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-    url(../../images/yoga1.png);
+    url('../../images/yoga1.png');
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -92,7 +89,7 @@ h3 {
 .BanerMusculacao {
   margin-left: 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-    url(../../images/musculacao.png);
+    url('../../images/musculacao.png');
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
@@ -131,14 +128,13 @@ h3 {
   padding-right: 30px;
   padding-left: 30px;
   margin-top: 50px;
-  color: #666666;
+  color: #666;
 }
 
 .newsletter p {
-  color: #666666;
+  color: #666;
   font-size: 15px;
   font-family: proxima, Arial, Helvetica, sans-serif;
-  
 }
 
 .newsletter h3 {
@@ -149,7 +145,7 @@ h3 {
 .newsletter input {
   width: 250px;
   height: 40px;
-  color: #666666;
+  color: #666;
   font-size: 15px;
   padding-left: 15px;
   font-family: proxima, Arial, Helvetica, sans-serif;
@@ -161,7 +157,7 @@ h3 {
   font-weight: 600;
   font-size: 18px;
   background: white;
-  border: 1px solid #666666;
+  border: 1px solid #666;
   margin-top: 40px;
   padding: 10px 30px;
 }
@@ -172,7 +168,7 @@ h3 {
   height: 52px;
   color: white;
   border: 0;
-  font-family: proxima;
+  font-family: proxima, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;

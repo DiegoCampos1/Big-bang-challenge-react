@@ -8,10 +8,9 @@
   font-weight: 600;
 }
 
-.containerCarousel{
+.containerCarousel {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
